@@ -75,7 +75,7 @@
 										</li>
 										<li>
 											<img src="images/icon-contact-message.png" alt="">
-											<a href="mailto:contact@companyname.com">adimis@iitk.ac.in</a>
+											<a href="mailto:ripecucumbers@gmail.com">ripecucumbers@gmail.com</a>
 										</li>
 									</ul>
 									<div class="contact-form">
@@ -88,9 +88,24 @@
 									</div>
 								</div>
 								<div class="col-md-7 col-md-offset-1">
-									<div class="map"></div>
-								</div>
-							</div>
+
+									<div id="map" style="width:100%;height:500px"></div>
+
+									<script>
+									function myMap() {
+  									var mapCanvas = document.getElementById("map");
+  									var myCenter = new google.maps.LatLng(26.511163, 80.230300);
+  									var mapOptions = {center: myCenter, zoom: 17};
+  									var map = new google.maps.Map(mapCanvas,mapOptions);
+  									var marker = new google.maps.Marker({
+    								position: myCenter,
+    								animation: google.maps.Animation.BOUNCE
+  									});
+  									marker.setMap(map);
+									}
+									</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvmHdbNBfF6to5oKOvlXATX34LYhZqmnA_kDIKU0aU&callback=myMap"></script>
 						</div>
 					</div>
 				</div> <!-- .container -->
