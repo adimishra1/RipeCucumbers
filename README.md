@@ -1,3 +1,5 @@
+## Our site is live on home.iitk.ac.in/~anany 
+
 # RIPE CUCUMBERS ML PICKLE RECIPE
 
 This repository contains the web app of Ripe Cucumbers, an app which rates movies that are about to be released, i.e. it looks into the future. It reads the data given as input and predicts the probability of the film bein 'Hit', 'Average' or 'Flop'. It uses the tools offered by Microsoft such as AzureML studio and prose to make the life of developers easier.
@@ -41,3 +43,5 @@ PROSE is the best SDK we have encountered yet. It uses programming by examples t
 
 [word plug-in github url]{https://github.com/nextLane/PROSEWordPlugin}
 
+
+## P.S. Do subscribe for more cool features
