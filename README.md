@@ -44,4 +44,4 @@ PROSE is the best SDK we have encountered yet. It uses programming by examples t
 [word plug-in github url]{https://github.com/nextLane/PROSEWordPlugin}
 
 
-## P.S. Do subscribe for more cool features
+## P.S. Do subscribe for more cool feature
