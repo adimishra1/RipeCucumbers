@@ -1,4 +1,4 @@
-## Our site is live [Here](home.iitk.ac.in/~adimis)
+## Our site is live [Here](https://adimishra1.github.io/RipeCucumbers/)
 
 # RIPE CUCUMBERS ML PICKLE RECIPE
 
